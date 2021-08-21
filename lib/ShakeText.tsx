@@ -1,9 +1,5 @@
 import * as React from "react";
-import { View, Text, Animated } from "react-native";
-/**
- * ? Local Imports
- */
-import styles from "./ShakeText.style";
+import { Text, Animated } from "react-native";
 
 const ANIMATION_VALUE = 10;
 const ANIMATION_DURATION = 100;
