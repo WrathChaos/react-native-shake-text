@@ -1,6 +1,6 @@
 {
   "name": "react-native-shake-text",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Fully customizable shake text for React Native",
   "main": "./build/dist/ShakeText.js",
   "repository": "git@github.com:WrathChaos/react-native-shake-text.git",
