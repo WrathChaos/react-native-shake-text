@@ -10,7 +10,7 @@
 
 import React from "react";
 import { Text, View, Image, Dimensions, SafeAreaView } from "react-native";
-import ShakeText from "./lib/ShakeText";
+import ShakeText from "react-native-shake-text";
 import TextInput from "react-native-text-input-interactive";
 import RNBounceable from "@freakycoder/react-native-bounceable";
 
