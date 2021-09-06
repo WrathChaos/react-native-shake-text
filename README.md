@@ -38,8 +38,32 @@ import ShakeText from "react-native-shake-text";
 ## Fundamental Usage
 
 ```jsx
-<ShakeText>Shake Text</ShakeText>
+
+import ShakeText from "react-native-shake-text";
+
+shakeTextRef: ShakeText | null = null;
+
+<ShakeText
+  ref={(ref: any) => (this.shakeTextRef = ref)}
+>
+  Shake Text
+</ShakeText>
+
+
+<Button onPress={() =>{ 
+  this.shakeEmailRef?.startShakeAnimation();
+}}>
 ```
+
+### Start the Shake Animation
+
+Simply you just need to call the `startShakeAnimation` by its reference
+
+```jsx
+this.shakeEmailRef?.startShakeAnimation();
+```
+
+
 
 ## Example Project 😍
 
