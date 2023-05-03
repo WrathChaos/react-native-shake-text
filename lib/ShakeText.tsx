@@ -9,6 +9,7 @@ interface IProps {
   duration?: number;
   animationValue?: number;
   TextComponent?: any;
+  children?:any
 }
 
 interface IState {}
